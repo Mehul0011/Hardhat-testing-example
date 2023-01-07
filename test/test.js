@@ -7,7 +7,9 @@ const { anyValue } = require("@nomicfoundation/hardhat-chai-matchers/withArgs");
 // console.log(anyValue);
 
 const { expect } = require("chai");
-const { ethers } = require("hardhat");
+// You may not import ethers because that is automatically injected from 
+// the toolbox but some people may prefer to manually import it
+// const { ethers } = require("hardhat");
 //console.log(expect);
 
 describe("Mytest", function() {
@@ -124,4 +126,6 @@ describe("Mytest", function() {
       );
     })
   })
+
+  runEveryTime();
 });

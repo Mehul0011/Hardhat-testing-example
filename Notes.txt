@@ -35,3 +35,8 @@ AVAILABLE TASKS:
   test          Runs mocha tests
 
 To get help for a specific task run: npx hardhat help [task]
+
+
+
+
+Hardhat toolbox inserts many globals that you can use in your scripts. The most important ones are:
