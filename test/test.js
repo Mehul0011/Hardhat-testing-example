@@ -124,6 +124,4 @@ describe("Mytest", function() {
       );
     })
   })
-
-  runEveryTime()
 });
